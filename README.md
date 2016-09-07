@@ -1,2 +1,2 @@
 # WebTek Project
-Initial README.md. Not part of the website
+The website is published at: <http://folk.ntnu.no/eriklio/IT2805/Project/WebTek/>
