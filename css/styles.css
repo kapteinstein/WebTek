@@ -6,8 +6,17 @@ body {
     color: rgb(30,30,30);
 }
 
+body > header h2 {
+  font-size: medium;
+}
+
+main section {
+  margin-top: 3em;
+}
 
 footer {
-  margin-top: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-top: 5em;
   font-size: 13px;
 }
