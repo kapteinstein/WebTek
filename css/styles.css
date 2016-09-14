@@ -16,6 +16,10 @@ body > header h2 {
   font-size: medium;
 }
 
+h2 span {
+  font-size: small;
+}
+
 main section {
   margin-top: 3em;
 }
