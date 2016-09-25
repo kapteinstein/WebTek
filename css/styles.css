@@ -1,33 +1,49 @@
 /* import font from Google Font API */
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
+html,
 body {
-    font-family: 'Open Sans', sans-serif;
-    width: 80%;
-    margin: auto;
-    background-color: rgba(240,240,240,0.5);
-    color: rgb(30,30,30);
+  margin:0;
+  padding:0;
+  height:100%;
 }
 
-body > header {
-  margin-top: 100px;
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(240,240,240,0.5);
+  color: rgb(30,30,30);
 }
 
-body > header h2 {
-  font-size: medium;
+#wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
-h2 span {
-  font-size: small;
+.main_header {
+  padding-top: 100px;
+  width: 80%;
+  margin: auto;
 }
 
-main div {
-  margin-top: 3em;
+.small { font-size: small; }
+.medium { font-size: medium; }
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
 }
+
+main div { margin-top: 3em; }
 
 footer {
-  padding-top: 5em;
-  padding-bottom: 5em;
-  margin-top: 5em;
+  text-align: center;
+  background: rgb(240,240,240);
+  width:100%;
+  height:70px;
+  color: #a0a0a0;
   font-size: 13px;
+  position:absolute;
+  bottom:0;
+  left:0;
 }
