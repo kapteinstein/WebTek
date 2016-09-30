@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+
+body { 
+  background: url(../img/Cinematics8.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main_header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.the_button {
+  padding: 10px;
+  width: 50px;
+  height: 20px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+}
+
+a.the_button { 
+  color: white;
+  text-decoration: none;
+}
+
+.button_fade {
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+}
+
+.button_fade:hover, .button_fade:focus, .button_fade:active {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (min-width: 940px) {
+  body {
+    background: url(../img/front_page.jpg) no-repeat center center fixed;
+  }
+}
+
