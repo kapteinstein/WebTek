@@ -47,7 +47,7 @@ a.the_button {
 
 .button_fade:hover, .button_fade:focus, .button_fade:active {
   background-color: rgba(255, 255, 255, 0.4);
-  border-color: rgba(255, 255, 255, 0.4);
+  /*border-color: rgba(255, 255, 255, 0.4);*/
 }
 
 @media screen and (min-width: 940px) {
