@@ -1,7 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
 
+html { height: 100%; }
 body { 
   background: url(../img/Cinematics8_light.jpg) no-repeat center center fixed;
+  max-height: 100%;
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -53,6 +55,9 @@ a.the_button {
 @media screen and (min-width: 940px) {
   body {
     background: url(../img/front_page.jpg) no-repeat center center fixed;
+    background-size: auto 100%; /*cover;*/
+    color: #303030;
   }
+  a.the_button { color: #303030; }
 }
 
