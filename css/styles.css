@@ -36,6 +36,10 @@ main {
 
 main div { margin-top: 3em; }
 
+.design-img {
+	width: 100%;
+}
+
 footer {
   text-align: center;
   background: rgb(240,240,240);
