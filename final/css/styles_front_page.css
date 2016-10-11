@@ -1,12 +1,42 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+/*@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';*/
+@font-face {
+    font-family: Trajan Pro;
+    src: url(../font/TrajanProRegular.otf);
+}
 
 html { height: 100%; }
 body { 
-  background: url(../img/Cinematics8_light.jpg) no-repeat center center fixed;
-  max-height: 100%;
+  font-family: 'Trajan Pro', sans-serif;
+  background-color: rgba(240,240,240,0.5);
+  color: #2d5052;
+}
+
+.videoContain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: none;
+  z-index: -1;
+}
+
+video {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  /*opacity: 0.8;*/
 }
 
 .centered {
@@ -19,21 +49,21 @@ body {
 .main_header {
   text-align: center;
   margin-top: 100px;
+  font-size: 30px;
 }
 
 .the_button {
-  padding: 10px;
-  width: 50px;
-  height: 20px;
+  font-size: 30px;
+  padding: 5px 7px 0px 5px;
   border-width: 1px;
   border-radius: 3px;
-  border-color: white;
+  border-color: #2d5052;
   border-style: solid;
   text-align: center;
 }
 
-a.the_button { 
-  color: white;
+a.the_button {
+  color: #2d5052;
   text-decoration: none;
 }
 
@@ -52,12 +82,24 @@ a.the_button {
   /*border-color: rgba(255, 255, 255, 0.4);*/
 }
 
-@media screen and (min-width: 940px) {
+
+@media screen and (max-width: 800px) {
+  body {
+    background: url(../img/Cinematics8_light.jpg) no-repeat center center fixed;
+    max-height: 100%;
+    background-size: cover;
+    color: white;
+  }
+  a.the_button { color: white; }
+  .videoContain { display: none; }
+}
+/*
+@media screen and (min-width: 800px) {
   body {
     background: url(../img/front_page.jpg) no-repeat center center fixed;
-    background-size: auto 100%; /*cover;*/
-    color: #303030;
+    max-height: 100%;
+    background-size: cover;
   }
-  a.the_button { color: #303030; }
+  .videoContain { display: none; }
 }
-
+*/
