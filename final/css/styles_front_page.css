@@ -1,14 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+/*@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';*/
 @import 'https://fonts.googleapis.com/css?family=Roboto:100';
+/*
 @font-face {
     font-family: Trajan Pro;
     src: url(../font/TrajanProRegular.otf);
-}
+}*/
 
 html { height: 100%; }
-body { 
+body {
   font-family: Roboto, 'Open Sans', sans-serif;
-  background-color: rgba(0,0,0,0.5);
   color: white;
 }
 
@@ -94,13 +94,12 @@ a.the_button {
   }
   .videoContain { display: none; }
 }
-/*
+
 @media screen and (min-width: 800px) {
   body {
-    background: url(../img/front_page.jpg) no-repeat center center fixed;
+    /*background: url(../img/front_page.jpg) no-repeat center center fixed;*/
+    background-color: black;
     max-height: 100%;
     background-size: cover;
   }
-  .videoContain { display: none; }
 }
-*/
