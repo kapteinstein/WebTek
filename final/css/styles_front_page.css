@@ -1,4 +1,5 @@
-/*@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';*/
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100';
 @font-face {
     font-family: Trajan Pro;
     src: url(../font/TrajanProRegular.otf);
@@ -6,9 +7,9 @@
 
 html { height: 100%; }
 body { 
-  font-family: 'Trajan Pro', sans-serif;
+  font-family: Roboto, 'Open Sans', sans-serif;
   background-color: rgba(0,0,0,0.5);
-  color: #2d5052;
+  color: white;
 }
 
 .videoContain {
@@ -41,13 +42,12 @@ video {
 
 .centered {
   position: fixed;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .main_header {
-  background-color: rgba(240, 240, 240, 0.5);
   text-align: center;
   margin-top: 70px;
   padding-top: 10px;
@@ -56,17 +56,17 @@ video {
 
 .the_button {
   font-size: 30px;
-  background-color: rgba(240, 240, 240, 0.5);
-  padding: 5px 7px 0px 5px;
+  background-color: rgba(240, 240, 240, 0.2);
+  padding: 0px 5px 0px 5px;
   border-width: 1px;
   border-radius: 3px;
-  border-color: #2d5052;
+  border-color: white;
   border-style: solid;
   text-align: center;
 }
 
 a.the_button {
-  color: #2d5052;
+  color: white;
   text-decoration: none;
 }
 
@@ -91,9 +91,7 @@ a.the_button {
     background: url(../img/Cinematics8_light.jpg) no-repeat center center fixed;
     max-height: 100%;
     background-size: cover;
-    color: white;
   }
-  a.the_button { color: white; }
   .videoContain { display: none; }
 }
 /*
