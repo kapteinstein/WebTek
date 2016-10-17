@@ -1,30 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+
 <head>
+  <script src="../js/main.js" async></script>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
   <meta name=keywords content="fotografi, kunst, kunstfoto" />
-  <title>Final Website</title>
+  <title>Main page (navigation)</title>
 </head>
+
 <body>
   <div class="wrapper">
     <nav>
-      <div class="menu-list">
-      <ul>
-        <li><a href=# class=menu-item>Cinematics</a></li>
-        <li><a href=# class=menu-item>Triptyk</a></li>
-        <li><a href=# class=menu-item>Flykt</a></li>
-        <li><a href=# class=menu-item>Glød</a></li>
-        <li><a href=# id=author>Daniel Bolstad</a></li>
-        <li><a href=# class=menu-item>Pandora</a></li>
-        <li><a href=# class=menu-item>Icarus</a></li>
-        <li><a href=# class=menu-item>Matthew</a></li>
-        <li><a href=# class=menu-item>Kings</a></li>
+      <ul class="menu-list" id="nav-list" onclick="loadPage()">
+        <li data-url="cinematics" class="menu-item">Cinematics</li>
+        <li data-url="triptyk" class="menu-item">Triptyk</li>
+        <li data-url="flykt" class="menu-item">Flykt</li>
+        <li data-url="glod" class="menu-item">Glød</li>
+        <li data-url="home" class="menu-item" id="author">Daniel Bolstad</li>
+        <li data-url="pandora" class="menu-item">Pandora</li>
+        <li data-url="icarus" class="menu-item">Icarus</li>
+        <li data-url="matthew" class="menu-item">Matthew</li>
+        <li data-url="kings" class="menu-item">Kings</li>
       </ul>
-      <div>
     </nav>
-    <section>
-    </section>
+    <div class="content" id="content"></div>
   </div>
-
 </body>
+
 </html>
