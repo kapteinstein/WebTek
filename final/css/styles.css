@@ -63,13 +63,28 @@ ul.menu {
   font-size: 26px;
 }
 
-.content {
-  /*display: flex;
-  flex-direction: column;*/
-  align-items: center;
-  margin-top: 200px;
-  /* border: 1px solid red; */
+.active {
+  color: black;
+  font-weight: bold;
 }
+
+.sidemenu ul { padding-top: 150px; list-style-type: none; }
+.sidemenu li { padding: 10px; }
+.sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
+.sidebilde { width: 100%; padding-top: 75px; }
+
+#giPLASS { height: 40px; }
+
+.triptyk img { width: 100%; padding-top: 20px; }
+.pandora img { width: 100%; padding-top: 20px; }
+.icarus img { width: 100%; padding-top: 20px; }
+.cinematics img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.kings video { width: 100%; }
+.flukt_enkel img { width: 100%; padding-top: 20px; }
+.flukt img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.glod_enkel img { width: 100%; padding-top: 20px; }
+.glod img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.matthew img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
 
 .bok {
   padding-top: 50px;
