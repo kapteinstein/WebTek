@@ -1,49 +1,97 @@
-body {
-  background-color: #e8e4e4;
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+
+* {
+    box-sizing: border-box;
 }
 
-.menu-list {
-  margin: 0 auto;
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  height: 60px;
+body {
+  font-family: Roboto;
+  background-color: #e8e4e4;
+  color: #2d5052;
+  min-width: 860px;
+}
+
+/* code idea taken from w3c schools 
+ * http://www.w3schools.com/css/css_rwd_grid.asp */
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid red; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* end of code from w3c */
+
+.menu { text-align: center; }
+ul.menu {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+
+}
+
+.menu li {
+  display: inline;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #2d5052;
 }
 
 #author {
-  font-size: 24px;
-  padding: 15px;
-  text-decoration: none;
-  color: #2d5052;
+  font-size: 26px;
 }
 
-nav {
-  height: 60px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  border-bottom: 1px #2d5052 solid;
+.active {
+  color: black;
+  font-weight: bold;
 }
 
-nav ul {
-  list-style: none;
-}
+.sidemenu ul { padding-top: 150px; list-style-type: none; }
+.sidemenu li { padding: 10px; }
+.sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
+.sidebilde { width: 100%; padding-top: 100px; }
 
-nav ul li {
-  float: left;
-  cursor: pointer;
-}
+#giPLASS { height: 40px; }
 
-.menu-item {
-  padding: 20px;
-  text-decoration: none;
-  color: #2d5052;
-}
+.triptyk img { width: 100%; padding-top: 20px; }
+.pandora img { width: 100%; padding-top: 20px; }
+.icarus img { width: 100%; padding-top: 20px; }
+.cinematics img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.kings video { width: 100%; }
+.flukt_enkel img { width: 100%; padding-top: 20px; }
+.flukt img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.glod_enkel img { width: 100%; padding-top: 20px; }
+.glod img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.matthew img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 200px;
+.bok {
+  padding-top: 50px;
 }
+.bok h1 {
+  margin-right: 100px;
+  padding-bottom: 50px;
+  text-align: right;
+}
+.bok p img { float: left; width: 30%; padding-right: 20px; }
