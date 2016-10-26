@@ -16,7 +16,7 @@
     </header>
 
     <div class="videoContain">
-      <video autoplay loop muted>
+      <video autoplay loop muted id=vid1>
         <source src="videos/kings.webm" type="video/webm" />
         <source src="videos/kings.ogv" type="video/ogg" />
         <source src="videos/kings.mp4" type="video/mp4" />
@@ -26,5 +26,8 @@
 
     <a href="pages/main.html" class="button_fade the_button centered">Enter</a>
   </div>
+  <script>
+    document.getElementById('vid1').currentTime = 9;
+  </script>
 </body>
   </html>
