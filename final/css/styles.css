@@ -68,10 +68,10 @@ ul.menu {
   font-weight: bold;
 }
 
-.sidemenu ul { padding-top: 150px; list-style-type: none; }
+.sidemenu ul { padding-top: 70px; list-style-type: none; }
 .sidemenu li { padding: 10px; }
 .sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
-.sidebilde { width: 100%; padding-top: 100px; }
+.sidebilde { width: 100%; padding-top: 70px; }
 
 #giPLASS { height: 40px; }
 
@@ -87,11 +87,9 @@ ul.menu {
 .matthew img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
 
 .bok {
-  padding-top: 50px;
 }
 .bok h1 {
   margin-right: 100px;
-  padding-bottom: 50px;
   text-align: right;
 }
 .bok p img { float: left; width: 30%; padding-right: 20px; }
@@ -128,9 +126,8 @@ fieldset{
 .valid{
   color: red;
   font-family: arial, helvetica;
-  display: block;
-  position: absolute;
-  right: 7px;
+  display: inline-block;
+  position: relative;
   margin-top: -15px;
 }
 .formwrap{
