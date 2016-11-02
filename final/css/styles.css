@@ -9,10 +9,6 @@ body {
   color: #2d5052;
   min-width: 860px;
 }
-nav{
-  position:relative;
-  margin-top: -25px;
-}
 
 /* code idea taken from w3c schools
  * http://www.w3schools.com/css/css_rwd_grid.asp */
@@ -42,33 +38,6 @@ nav{
 }
 
 /* end of code from w3c */
-.menu { text-align: center; }
-ul.menu {
-  list-style-type: none;
-  width: 100%;
-  padding-left: 0;
-  margin-left: 0;
-
-}
-
-.menu li {
-  display: inline;
-  padding: 10px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #2d5052;
-}
-
-#author {
-  font-size: 26px;
-}
-
-.active {
-  color: black;
-  font-weight: bold;
-}
 
 .sidemenu ul { padding-top: 70px; list-style-type: none; }
 .sidemenu li { padding: 10px; }
