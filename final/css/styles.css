@@ -120,4 +120,5 @@ fieldset{
   }
 
   .bildeserie { padding: 0; margin: 0; }
+  #hanIStolen { display: none; }
 }
