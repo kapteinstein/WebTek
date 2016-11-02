@@ -84,6 +84,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  [class*="col-"] {
+      width: 100%;
+  }
   .menu {
     font-size: 0.8em;
     flex-direction: column;
