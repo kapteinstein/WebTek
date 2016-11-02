@@ -1,0 +1,103 @@
+/*Navigation menu*/
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+}
+
+
+/*Anchors/hyperlinks*/
+
+.menu a {
+  padding: 8px;
+  text-decoration: none;
+  color: #2d5052;
+}
+
+#author {
+  font-size: 26px;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+}
+
+
+/*Drop-down menu for book, contact and bio*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 4px;
+  /*box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.25);*/
+}
+
+.dropdown:hover .dropdown-menu {
+  position: absolute;
+  display: block;
+}
+
+.dropdown-menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #2d5052;
+  border-bottom: 1px solid #2d5052;
+}
+
+.dropdown-menu-items a {
+  background-color: #e8e4e4;
+  color: #2d5052;
+}
+
+
+/*TODO: Det går ikkje an å bruke denne på mobil, men det er kanskje ikkje så nøye.*/
+
+.dropdown-menu-items a:hover {
+  background-color: #2d5052;
+  color: #e8e4e4;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width: 800px) {
+  .menu {
+    font-size: 0.8em;
+  }
+  .dropdown, .menu a {
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    font-size: 0.8em;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .submenu {
+    display: flex;
+    flex-direction: row;
+  }
+  .dropdown {
+    order: -1;
+  }
+  .dropdown-menu {
+    margin-top: 4px;
+  }
+}
