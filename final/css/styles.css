@@ -112,4 +112,12 @@ fieldset{
   [class*="col-"] {
       width: 100%;
   }
+
+  .bok h1 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .bildeserie { padding: 0; margin: 0; }
 }
