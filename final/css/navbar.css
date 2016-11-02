@@ -66,6 +66,8 @@
 
 /*TODO: Det går ikkje an å bruke denne på mobil, men det er kanskje ikkje så nøye.*/
 
+.sidemenu { visibility: hidden; } /* en slags fallback på mobil */
+
 .dropdown-menu-items a:hover {
   background-color: #2d5052;
   color: #e8e4e4;
@@ -84,9 +86,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  [class*="col-"] {
-      width: 100%;
-  }
   .menu {
     font-size: 0.8em;
     flex-direction: column;
@@ -103,4 +102,12 @@
   .dropdown-menu {
     margin-top: 4px;
   }
+
+  .sidemenu {
+    visibility: visible;
+  }
+
+  .sidemenu ul { text-align: center; margin: 0; padding: 0; }
+  .sidemenu li { display: inline; padding: 10px; }
+  .sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
 }
