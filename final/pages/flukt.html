@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
-    <meta name=keywords content="fotografi, kunst, kunstfoto" />
-    <title>Flukt</title>
-  </head>
-  <body>
-    <!-- The navigation menu -->
-    <nav class="row">
-      <div class="menu">
-        <div class="submenu">
-          <a href="cinematics.html">Cinematics</a>
-          <a href="triptyk.html">Triptyk</a>
-          <a href="flukt.html"><span class="active">Flukt</span></a>
-          <a href="glod.html">Glød</a>
-        </div>
-        <div class="dropdown">
-          <a href="main.html"><span id="author">Daniel Bolstad</span></a>
-          <div class="dropdown-menu">
-            <div class="dropdown-menu-items">
-              <a href="bok.html">Bok</a>
-              <a href="kontakt.html">Kontakt</a>
-              <a href="bio.html">Biografi</a>
-            </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+  <script src="../js/main.js" async></script>
+  <meta name=keywords content="fotografi, kunst, kunstfoto" />
+  <title>Flukt</title>
+</head>
+
+<body>
+  <!-- The navigation menu -->
+  <nav class="row">
+    <div class="menu">
+      <div class="submenu">
+        <a href="cinematics.html">Cinematics</a>
+        <a href="triptyk.html">Triptyk</a>
+        <a href="flukt.html"><span class="active">Flukt</span></a>
+        <a href="glod.html">Glød</a>
+      </div>
+      <div class="dropdown">
+        <a href="main.html"><span id="author">Daniel Bolstad</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-menu-items">
+            <a href="bok.html">Bok</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="bio.html">Biografi</a>
           </div>
         </div>
-        <div class="submenu">
-          <a href="pandora.html">Pandora</a>
-          <a href="icarus.html">Icarus</a>
-          <a href="matthew.html">Matthew</a>
-          <a href="kings.html">Kings</a>
-        </div>
       </div>
-      <hr />
-    </nav>
+      <div class="submenu">
+        <a href="pandora.html">Pandora</a>
+        <a href="icarus.html">Icarus</a>
+        <a href="matthew.html">Matthew</a>
+        <a href="kings.html">Kings</a>
+      </div>
+    </div>
+    <hr />
+  </nav>
 
-  <div class="row">
+  <!-- Slide show -->
+  <div id="modalBox">
+    <div class="slideShowContainer">
+      <img id="slideImage" data-imageid="1" />
+      <a id="prevBtn" class="prev">&#10094;</a>
+      <a id="nextBtn" class="next">&#10095;</a>
+    </div>
+  </div>
+
+  <div id="mainContainer" class="row">
     <div class="col-1"></div>
     <div class="col-10 flukt bildeserie">
-      <img src="../img/Flukt/Exodus.jpg" alt="Flukt1" />
-      <img src="../img/Flukt/Exodus2.jpg" alt="Flukt2" />
-      <img src="../img/Flukt/Exodus3.jpg" alt="Flukt3" />
-      <img src="../img/Flukt/Exodus4.jpg" alt="Flukt4" />
-      <img src="../img/Flukt/Exodus5.jpg" alt="Flukt5" />
-      <img src="../img/Flukt/Exodus6.jpg" alt="Flukt6" />
-      <img src="../img/Flukt/Exodus7.jpg" alt="Flukt7" />
-      <img src="../img/Flukt/Exodus8.jpg" alt="Flukt8" />
-      <img src="../img/Flukt/Exodus9.jpg" alt="Flukt9" />
-      <img src="../img/Flukt/Exodus10.jpg" alt="Flukt10" />
-      <img src="../img/Flukt/Exodus11.jpg" alt="Flukt11" />
+      <img id="1" class="image"  src="../img/Flukt/Exodus.jpg" alt="Flukt1" />
+      <img id="2" class="image" src="../img/Flukt/Exodus2.jpg" alt="Flukt2" />
+      <img id="3" class="image" src="../img/Flukt/Exodus3.jpg" alt="Flukt3" />
+      <img id="4" class="image" src="../img/Flukt/Exodus4.jpg" alt="Flukt4" />
+      <img id="5" class="image" src="../img/Flukt/Exodus5.jpg" alt="Flukt5" />
+      <img id="6" class="image" src="../img/Flukt/Exodus6.jpg" alt="Flukt6" />
+      <img id="7" class="image" src="../img/Flukt/Exodus7.jpg" alt="Flukt7" />
+      <img id="8" class="image" src="../img/Flukt/Exodus8.jpg" alt="Flukt8" />
+      <img id="9" class="image" src="../img/Flukt/Exodus9.jpg" alt="Flukt9" />
+      <img id="10" class="image" src="../img/Flukt/Exodus10.jpg" alt="Flukt10" />
+      <img id="11" class="image" src="../img/Flukt/Exodus11.jpg" alt="Flukt11" />
     </div>
     <div class="col-1"></div>
-  </div> <!-- avslutter row -->
-  </body>
+  </div>
+  <!-- avslutter row -->
+</body>
+
 </html>

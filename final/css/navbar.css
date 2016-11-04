@@ -47,7 +47,6 @@
   left: 0;
   width: 100%;
   margin-top: 4px;
-  /*box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.25);*/
 }
 
 .dropdown:hover .dropdown-menu {
@@ -68,10 +67,12 @@
   color: #2d5052;
 }
 
+.sidemenu {
+  visibility: hidden;
+}
 
-/*TODO: Det går ikkje an å bruke denne på mobil, men det er kanskje ikkje så nøye.*/
 
-.sidemenu { visibility: hidden; } /* en slags fallback på mobil */
+/* en slags fallback på mobil */
 
 .dropdown-menu-items a:hover {
   background-color: #2d5052;
@@ -107,12 +108,21 @@
   .dropdown-menu {
     margin-top: 4px;
   }
-
   .sidemenu {
     visibility: visible;
   }
-
-  .sidemenu ul { text-align: center; margin: 0; padding: 0; }
-  .sidemenu li { display: inline; padding: 10px; }
-  .sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
+  .sidemenu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .sidemenu li {
+    display: inline;
+    padding: 10px;
+  }
+  .sidemenu a {
+    text-decoration: none;
+    color: #2d5052;
+    font-weight: bold;
+  }
 }

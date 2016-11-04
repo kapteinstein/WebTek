@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
-    <meta name=keywords content="fotografi, kunst, kunstfoto" />
-    <title>Kontakt</title>
-  </head>
-  <body>
-    <!-- The navigation menu -->
-    <nav class="row">
-      <div class="menu">
-        <div class="submenu">
-          <a href="cinematics.html">Cinematics</a>
-          <a href="triptyk.html">Triptyk</a>
-          <a href="flukt.html">Flukt</a>
-          <a href="glod.html">Glød</a>
-        </div>
-        <div class="dropdown">
-          <a href="main.html"><span id="author">Daniel Bolstad</span></a>
-          <div class="dropdown-menu">
-            <div class="dropdown-menu-items">
-              <a href="bok.html">Bok</a>
-              <a href="kontakt.html">Kontakt</a>
-              <a href="bio.html">Biografi</a>
-            </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+  <script src="../js/main.js" async></script>
+  <meta name=keywords content="fotografi, kunst, kunstfoto" />
+  <title>Kontakt</title>
+</head>
+
+<body>
+  <!-- The navigation menu -->
+  <nav class="row">
+    <div class="menu">
+      <div class="submenu">
+        <a href="cinematics.html">Cinematics</a>
+        <a href="triptyk.html">Triptyk</a>
+        <a href="flukt.html">Flukt</a>
+        <a href="glod.html">Glød</a>
+      </div>
+      <div class="dropdown">
+        <a href="main.html"><span id="author">Daniel Bolstad</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-menu-items">
+            <a href="bok.html">Bok</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="bio.html">Biografi</a>
           </div>
         </div>
-        <div class="submenu">
-          <a href="pandora.html"><span class="active">Pandora</span></a>
-          <a href="icarus.html">Icarus</a>
-          <a href="matthew.html">Matthew</a>
-          <a href="kings.html">Kings</a>
-        </div>
       </div>
-      <hr />
-    </nav>
+      <div class="submenu">
+        <a href="pandora.html"><span class="active">Pandora</span></a>
+        <a href="icarus.html">Icarus</a>
+        <a href="matthew.html">Matthew</a>
+        <a href="kings.html">Kings</a>
+      </div>
+    </div>
+    <hr />
+  </nav>
+
+  <!-- Slide show -->
+  <div id="modalBox">
+    <div class="slideShowContainer">
+      <img id="slideImage" data-imageid="1" />
+      <a id="prevBtn" class="prev">&#10094;</a>
+      <a id="nextBtn" class="next">&#10095;</a>
+    </div>
+  </div>
 
   <!--<div class="row">
     <div id="giPLASS" class="col-12"></div>
   </div> -->
-  <div class="row">
+  <div id="mainContainer" class="row">
     <div class="col-1"></div>
     <div class="col-10 pandora bildeserie">
-      <img src="../img/Pandora/Pandora.jpg" alt="Pandora1" />
-      <img src="../img/Pandora/Pandora2.jpg" alt="Pandora2" />
-      <img src="../img/Pandora/Pandora3.jpg" alt="Pandora3" />
-      <img src="../img/Pandora/Pandora4.jpg" alt="Pandora4" />
-      <img src="../img/Pandora/Pandora5.jpg" alt="Pandora5" />
+      <img id="1" class="image" src="../img/Pandora/Pandora.jpg" alt="Pandora1" />
+      <img id="2" class="image" src="../img/Pandora/Pandora2.jpg" alt="Pandora2" />
+      <img id="3" class="image" src="../img/Pandora/Pandora3.jpg" alt="Pandora3" />
+      <img id="4" class="image" src="../img/Pandora/Pandora4.jpg" alt="Pandora4" />
+      <img id="5" class="image" src="../img/Pandora/Pandora5.jpg" alt="Pandora5" />
     </div>
     <div class="col-1"></div>
-  </div> <!-- avslutter row -->
-  </body>
+  </div>
+  <!-- avslutter row -->
+</body>
+
 </html>
