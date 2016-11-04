@@ -39,6 +39,7 @@
   display: inline-block;
   flex-direction: column;
   padding: 8px 0;
+  z-index: 1;
 }
 
 .dropdown-menu {
