@@ -45,7 +45,7 @@ body {
 .sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
 */
 .sidebilde { width: 100%; }
-
+#mainContainer { opacity: 0; transition: 1s; }
 #giPLASS { height: 40px; }
 
 .triptyk img { width: 100%; padding-top: 20px; }
