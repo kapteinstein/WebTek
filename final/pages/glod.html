@@ -11,7 +11,7 @@
   <title>Glod</title>
 </head>
 
-<body>
+<body onload="fadeAtLoad();">
   <!-- The navigation menu -->
   <nav class="row">
     <div class="menu">
@@ -54,6 +54,7 @@
     <div id="giPLASS" class="col-12"></div>
   </div> -->
 
+  <div id="mainContainer">
   <div class="row">
     <div class="col-1"></div>
     <div class="col-5 glod bildeserie">
@@ -66,7 +67,7 @@
   </div>
   <!-- avslutter row -->
 
-  <div id="mainContainer" class="row">
+  <div class="row">
     <div class="col-1"></div>
     <div class="col-10 glod_enkel bildeserie">
       <img id="3" class="image" src="../img/Gloed/Gloed_3.jpg" alt="glod3" />
@@ -74,7 +75,9 @@
     </div>
     <div class="col-1"></div>
   </div>
+  </div>
   <!-- avslutter row -->
+  <script src="../js/fade.js"></script>
 </body>
 
 </html>
