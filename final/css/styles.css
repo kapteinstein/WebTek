@@ -1,10 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@font-face {
+  font-family: "robotoLocal";
+  src: url(../font/Roboto-Light.woff);
+}
 
 * {
     box-sizing: border-box;
 }
+
 body {
-  font-family: Roboto;
+  font-family: "robotoLocal";
   background-color: #e8e4e4;
   color: #2d5052;
   /* min-width: 860px; */
@@ -36,28 +40,23 @@ body {
     clear: both;
     display: block;
 }
-
 /* end of code from w3c */
 
-/*
-.sidemenu ul { padding-top: 70px; list-style-type: none; }
-.sidemenu li { padding: 10px; }
-.sidemenu a { text-decoration: none; color: #2d5052; font-weight: bold; }
-*/
 .sidebilde { width: 100%; }
 #mainContainer { opacity: 0; transition: 1s; }
 #giPLASS { height: 40px; }
 
-.triptyk img { width: 100%; padding-top: 20px; }
-.pandora img { width: 100%; padding-top: 20px; }
-.icarus img { width: 100%; padding-top: 20px; }
-.cinematics img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
-.kings video { width: 100%; }
-.flukt_enkel img { width: 100%; padding-top: 20px; }
-.flukt img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
-.glod_enkel img { width: 100%; padding-top: 20px; }
-.glod img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
-.matthew img { width: 100%; padding: 10px; padding-right: 0; padding-left: 0;}
+.image {
+  width: 100%;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.cinematics img { width: 100%; margin: 10px; margin-right: 0; margin-left: 0;}
+.flukt img { margin: 10px; margin-right: 0; margin-left: 0;}
+.glod img {  margin: 10px; margin-right: 0; margin-left: 0;}
+.matthew img { margin: 10px; margin-right: 0; margin-left: 0;}
+.kings video { width: 100%; margin-top: 20px;}
 
 .bok h1 {
   margin-right: 100px;
