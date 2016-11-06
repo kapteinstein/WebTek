@@ -1,14 +1,11 @@
-/*@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';*/
-@import 'https://fonts.googleapis.com/css?family=Roboto:100';
-/*
 @font-face {
-    font-family: Trajan Pro;
-    src: url(../font/TrajanProRegular.otf);
-}*/
+  font-family: "robotoLocal";
+  src: url(../font/Roboto-Light.woff);
+}
 
 html { height: 100%; }
 body {
-  font-family: Roboto, 'Open Sans', sans-serif;
+  font-family: "robotoLocal";
   color: white;
 }
 
