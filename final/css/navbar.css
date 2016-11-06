@@ -23,12 +23,12 @@
 
 .menu a:hover {
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .active {
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 
