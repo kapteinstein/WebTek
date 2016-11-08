@@ -2,42 +2,14 @@
 <html lang="en-US">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name=keywords content="fotografi, kunst, kunstfoto" />
+  <?php include "header.php";?>
   <title>Daniel Bolstad</title>
 </head>
 
-<body>
+<body onload="fadeAtLoad();">
   <!-- The navigation menu -->
   <nav class="row">
-    <div class="menu">
-      <div class="submenu">
-        <a href="cinematics.html">Cinematics</a>
-        <a href="triptyk.html">Triptyk</a>
-        <a href="flukt.html">Flukt</a>
-        <a href="glod.html">Glød</a>
-      </div>
-      <div class="dropdown">
-        <a href="main.html"><span id="author" class="active">Daniel Bolstad</span></a>
-        <div class="dropdown-menu">
-          <div class="dropdown-menu-items">
-            <a href="bok.html">Bok</a>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="bio.html">Biografi</a>
-          </div>
-        </div>
-      </div>
-      <div class="submenu">
-        <a href="pandora.html">Pandora</a>
-        <a href="icarus.html">Icarus</a>
-        <a href="matthew.html">Matthew</a>
-        <a href="kings.html">Kings</a>
-      </div>
-    </div>
-    <hr />
+    <?php include "navbar.php";?>
   </nav>
 
   <!-- The sidebar -->
