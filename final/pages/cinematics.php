@@ -14,7 +14,7 @@
 <body onload="fadeAtLoad();">
   <!-- The navigation menu -->
   <nav class="row">
-    <?php include('navbar.php');?>
+    <?php include "navbar.php";?>
   </nav>
 
   <!-- Slide show -->
