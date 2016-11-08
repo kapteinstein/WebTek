@@ -8,9 +8,7 @@
 
 <body onload="fadeAtLoad();">
   <!-- The navigation menu -->
-  <nav class="row">
-    <?php include "navbar.php";?>
-  </nav>
+  <?php include "navbar.php";?>
 
   <div class="row">
     <div class="col-2 sidemenu">
