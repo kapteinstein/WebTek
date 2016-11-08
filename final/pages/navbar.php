@@ -1,6 +1,6 @@
 <?php
 echo '
-  <nav class="row">
+  <nav class="row" id="navbar">
     <div class="menu">
       <div class="submenu">
         <a href="cinematics.php">Cinematics</a>
@@ -9,7 +9,7 @@ echo '
         <a href="glod.php">Glød</a>
       </div>
       <div class="dropdown">
-        <a href="main.php"><span>Daniel Bolstad</span></a>
+        <a href="main.php"><span id="author">Daniel Bolstad</span></a>
         <div class="dropdown-menu">
           <div class="dropdown-menu-items">
             <a href="bok.php">Bok</a>

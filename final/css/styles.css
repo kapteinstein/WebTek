@@ -44,7 +44,6 @@ body {
 
 .sidebilde { width: 100%; }
 #mainContainer { opacity: 0; transition: 1s; }
-#giPLASS { height: 40px; }
 
 .image {
   width: 100%;
@@ -62,6 +61,7 @@ body {
   margin-right: 100px;
   text-align: right;
 }
+
 .bok p img { float: left; width: 30%; padding-right: 20px; }
 
 /*Images and slideshow
@@ -82,12 +82,22 @@ http://www.w3schools.com/howto/howto_js_lightbox.asp*/
   overflow: auto;
 }
 
-.slideShowContainer {
+#slideShowContainer {
   position: absolute;
   left: 50%;
   top: 50%;
   width: 90%;
   transform: translate(-50%, -50%);
+}
+
+.tallImage {
+  height: 90%;
+  width: auto;
+}
+
+.wideImage {
+  height: auto;
+  width: 90%;
 }
 
 #slideImage {
@@ -169,7 +179,7 @@ fieldset{
 
 /*Use full screen width for slide show images on small screens*/
 @media screen and (max-width: 800px) {
-  .slideShowContainer{
+  #slideShowContainer{
     width: 100%;
   }
 }

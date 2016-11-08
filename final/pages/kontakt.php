@@ -3,21 +3,23 @@
 
 <head>
   <?php include "header.php";?>
+  <script src="../js/formvalidator.js"></script>
   <title>Kontakt</title>
 </head>
 
-<body onload="fadeAtLoad();">
+<body>
   <!-- The navigation menu -->
   <?php include "navbar.php";?>
 
   <div class="row">
     <div class="col-2 sidemenu">
       <ul>
-        <li> <a href="bok.html">Bok</a> </li>
-        <li> <a href="kontakt.html"><span>Kontakt</span></a> </li>
-        <li> <a href="bio.html">Biografi</a> </li>
+        <li> <a href="bok.php">Bok</a> </li>
+        <li> <a href="kontakt.php"><span>Kontakt</span></a> </li>
+        <li> <a href="bio.php">Biografi</a> </li>
       </ul>
     </div>
+
     <div class="bok col-8">
       <h1>Kontakt</h1>
       <form class=contactform id=contact name=contact action="email.php" onsubmit="return validateForm()" method="post">
@@ -38,6 +40,7 @@
       </form>
     </div>
     <div class="col-2"></div>
-  </div> <!-- avslutter row -->
-  </body>
+  </div>
+</body>
+
 </html>

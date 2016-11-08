@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
+<head>
   <?php include "header.php";?>
   <title>Kings</title>
 </head>
 
-<body onload="fadeAtLoad();">
+<body>
   <!-- The navigation menu -->
   <?php include "navbar.php";?>
 
-  <div class="row">
+  <div id="mainContainer" class="row">
     <div class="col-12 kings">
       <video controls preload="metadata" poster="../img/front_page.jpg">
         <source src="../videos/kings.webm" type="video/webm" />
@@ -17,6 +19,7 @@
         videoen kan ikke vises :/
       </video>
     </div>
-  </div> <!-- avslutter row -->
-  </body>
+  </div>
+</body>
+
 </html>

@@ -6,16 +6,16 @@
   <title>Biografi</title>
 </head>
 
-<body onload="fadeAtLoad();">
+<body>
   <!-- The navigation menu -->
   <?php include "navbar.php";?>
 
   <div class="row">
     <div class="col-2 sidemenu">
       <ul>
-        <li> <a href="bok.html">Bok</a> </li>
-        <li> <a href="kontakt.html">Kontakt</a> </li>
-        <li> <a href="bio.html"><span>Biografi</span></a> </li>
+        <li> <a href="bok.php">Bok</a> </li>
+        <li> <a href="kontakt.php">Kontakt</a> </li>
+        <li> <a href="bio.php"><span>Biografi</span></a> </li>
       </ul>
     </div>
     <div class="col-3">
@@ -33,6 +33,7 @@
       <hr />
     </div>
     <div class="col-2"></div>
-  </div> <!-- avslutter row -->
-  </body>
+  </div>
+</body>
+
 </html>

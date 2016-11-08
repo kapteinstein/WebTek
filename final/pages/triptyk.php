@@ -2,26 +2,23 @@
 <html>
 
 <head>
-  <?php include "header.php";?>
+  <?php include "slideshowHeader.php";?>
   <title>Triptyk</title>
 </head>
 
-<body onload="fadeAtLoad();">
+<body>
   <!-- The navigation menu -->
   <?php include "navbar.php";?>
 
   <!-- Slide show -->
   <div id="modalBox">
-    <div class="slideShowContainer">
+    <div id="slideShowContainer">
       <img id="slideImage" data-imageid="1" />
       <a id="prevBtn" class="prev">&#10094;</a>
       <a id="nextBtn" class="next">&#10095;</a>
     </div>
   </div>
 
-  <!--<div class="row">
-    <div id="giPLASS" class="col-12"></div>
-  </div>-->
   <div id="mainContainer" class="row">
     <div class="col-1"></div>
     <div class="col-10 triptyk bildeserie">
@@ -30,8 +27,6 @@
     </div>
     <div class="col-1"></div>
   </div>
-  <!-- avslutter row -->
-  <script src="../js/fade.js"></script>
 </body>
 
 </html>

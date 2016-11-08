@@ -6,16 +6,16 @@
   <title>Kontakt</title>
 </head>
 
-<body onload="fadeAtLoad();">
+<body>
   <!-- The navigation menu -->
   <?php include "navbar.php";?>
 
   <div class="row">
     <div class="col-2 sidemenu">
       <ul>
-        <li> <a href="bok.html"><span>Bok</span></a> </li>
-        <li> <a href="kontakt.html">Kontakt</a> </li>
-        <li> <a href="bio.html">Biografi</a> </li>
+        <li> <a href="bok.php"><span>Bok</span></a> </li>
+        <li> <a href="kontakt.php">Kontakt</a> </li>
+        <li> <a href="bio.php">Biografi</a> </li>
       </ul>
     </div>
 
@@ -27,6 +27,7 @@
       <hr />
     </div>
     <div class="col-2"></div>
-  </div> <!-- avslutter row -->
-  </body>
+  </div>
+</body>
+
 </html>
