@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="css/styles_front_page.css" />
+  <meta name=keywords content="fotografi, kunst, kunstfoto" />
   <title>Final Website</title>
 </head>
 
@@ -14,7 +15,19 @@
       <h1>Daniel Bolstad</h1>
     </header>
 
-    <a href="#" class="button_fade the_button centered">Enter</a>
+    <div class="videoContain">
+      <video autoplay loop muted id=vid1>
+        <source src="videos/kings.webm" type="video/webm" />
+        <source src="videos/kings.ogv" type="video/ogg" />
+        <source src="videos/kings.mp4" type="video/mp4" />
+        <img src="img/front_page.jpg" alt="front page" />
+      </video>
+    </div>
+
+    <a href="pages/main.html" class="button_fade the_button centered">Enter</a>
   </div>
+  <script>
+    document.getElementById('vid1').currentTime = 9.7;
+  </script>
 </body>
-</html>
+  </html>

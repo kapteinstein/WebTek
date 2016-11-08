@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="../js/formvalidator.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+    <meta name=keywords content="fotografi, kunst, kunstfoto" />
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <!-- The navigation menu -->
+    <nav class="row">
+      <div class="menu">
+        <div class="submenu">
+          <a href="cinematics.html">Cinematics</a>
+          <a href="triptyk.html">Triptyk</a>
+          <a href="flukt.html">Flukt</a>
+          <a href="glod.html">Glød</a>
+        </div>
+        <div class="dropdown">
+          <a href="main.html"><span id="author" class="active">Daniel Bolstad</span></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-menu-items">
+              <a href="bok.html">Bok</a>
+              <a href="kontakt.html">Kontakt</a>
+              <a href="bio.html">Biografi</a>
+            </div>
+          </div>
+        </div>
+        <div class="submenu">
+          <a href="pandora.html">Pandora</a>
+          <a href="icarus.html">Icarus</a>
+          <a href="matthew.html">Matthew</a>
+          <a href="kings.html">Kings</a>
+        </div>
+      </div>
+      <hr />
+    </nav>
+
+  <div class="row">
+    <div class="col-2 sidemenu">
+      <ul>
+        <li> <a href="bok.html">Bok</a> </li>
+        <li> <a href="kontakt.html"><span class="active">Kontakt</span></a> </li>
+        <li> <a href="bio.html">Biografi</a> </li>
+      </ul>
+    </div>
+    <div class="bok col-8">
+      <h1>Kontakt</h1>
+      <form class=contactform id=contact name=contact action="email.php" onsubmit="return validateForm()" method="post">
+        <fieldset>
+          <legend>Kontakt Daniel Bolstad</legend>
+          <label>Fullt navn: </label> <p id="validResName" class=valid> </p>
+            <input type=text name=name placeholder="F. eks. Ola Nordmann" /><br />
+          <label>E-mail: </label> <p id="validResEmail" class=valid> </p>
+            <input type=text name=email placeholder="e.g. ola@nordmann.no" /> <br />
+          <label>Type henvendelse:  </label> <p id="validResHenvendelse" class=valid> </p>
+            <input type=text name=henvendelse placeholder="F. eks. spørsmål"><br />
+
+          <label>Melding: </label>
+            <textarea name=message form=contact id=message
+            placeholder="Skriv meldingen din her"></textarea>
+          <input type=submit name=submit value=Send />
+        </fieldset>
+      </form>
+    </div>
+    <div class="col-2"></div>
+  </div> <!-- avslutter row -->
+  </body>
+</html>

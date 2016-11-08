@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+  <script src="../js/main.js" async></script>
+  <meta name=keywords content="fotografi, kunst, kunstfoto" />
+  <title>Matthew</title>
+</head>
+
+<body onload="fadeAtLoad();">
+  <!-- The navigation menu -->
+  <nav class="row">
+    <div class="menu">
+      <div class="submenu">
+        <a href="cinematics.html">Cinematics</a>
+        <a href="triptyk.html">Triptyk</a>
+        <a href="flukt.html">Flukt</a>
+        <a href="glod.html">Glød</a>
+      </div>
+      <div class="dropdown">
+        <a href="main.html"><span id="author">Daniel Bolstad</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-menu-items">
+            <a href="bok.html">Bok</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="bio.html">Biografi</a>
+          </div>
+        </div>
+      </div>
+      <div class="submenu">
+        <a href="pandora.html">Pandora</a>
+        <a href="icarus.html">Icarus</a>
+        <a href="matthew.html"><span class="active">Matthew</span></a>
+        <a href="kings.html">Kings</a>
+      </div>
+    </div>
+    <hr />
+  </nav>
+
+  <!-- Slide show -->
+  <div id="modalBox">
+    <div class="slideShowContainer">
+      <img id="slideImage" data-imageid="1" />
+      <a id="prevBtn" class="prev">&#10094;</a>
+      <a id="nextBtn" class="next">&#10095;</a>
+    </div>
+  </div>
+
+  <!--<div class="row">
+    <div id="giPLASS" class="col-12"></div>
+  </div> -->
+  <div id="mainContainer" class="row">
+    <div class="col-1"></div>
+    <div class="col-5 matthew bildeserie">
+      <img id="1" class="image" src="../img/Matthew/Matthew.jpg" alt="Matthew1" />
+      <img id="3" class="image" src="../img/Matthew/Matthew3.jpg" alt="Matthew3" />
+      <img id="5" class="image" src="../img/Matthew/Matthew5.jpg" alt="Matthew5" />
+      <img id="7" class="image" src="../img/Matthew/Matthew7.jpg" alt="Matthew7" />
+    </div>
+    <div class="col-5 matthew bildeserie">
+      <img id="2" class="image" src="../img/Matthew/Matthew2.jpg" alt="Matthew2" />
+      <img id="4" class="image" src="../img/Matthew/Matthew4.jpg" alt="Matthew4" />
+      <img id="6" class="image" src="../img/Matthew/Matthew6.jpg" alt="Matthew6" />
+      <img id="8" class="image" src="../img/Matthew/Matthew8.jpg" alt="Matthew8" />
+      <img id="9" class="image" src="../img/Matthew/Matthew9.jpg" alt="Matthew9" />
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <!-- avslutter row -->
+  <script src="../js/fade.js"></script>
+</body>
+
+</html>
