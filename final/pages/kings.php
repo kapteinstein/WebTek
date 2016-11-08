@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
   <?php include "header.php";?>
   <title>Kings</title>
 </head>
@@ -10,9 +8,6 @@
   <!-- The navigation menu -->
   <?php include "navbar.php";?>
 
-  <!--<div class="row">
-    <div id="giPLASS" class="col-12"></div>
-  </div>-->
   <div class="row">
     <div class="col-12 kings">
       <video controls preload="metadata" poster="../img/front_page.jpg">

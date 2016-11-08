@@ -1,5 +1,22 @@
 // This is the main script.
 
+var anchors = document.getElementsByTagName('a');
+
+window.onload = function() {
+  var href = window.location.href;
+  var url = href.substr(href.lastIndexOf('/') + 1);
+
+  for (var i = 0; i < anchors.length; i++) {
+    var anchor = anchors[i];
+    var anchorUrl = anchor.href.substr(anchor.href.lastIndexOf('/') + 1);
+    if (anchorUrl == url) {
+      anchor.style.color = "red";
+      anchor.style.fontWeight = "bold";
+      break;
+    }
+  }
+}
+
 // Slide show, based on the following tutorials:
 // http://www.w3schools.com/howto/howto_js_slideshow.asp
 // http://www.w3schools.com/howto/howto_css_modal_images.asp

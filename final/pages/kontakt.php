@@ -14,7 +14,7 @@
     <div class="col-2 sidemenu">
       <ul>
         <li> <a href="bok.html">Bok</a> </li>
-        <li> <a href="kontakt.html"><span class="active">Kontakt</span></a> </li>
+        <li> <a href="kontakt.html"><span>Kontakt</span></a> </li>
         <li> <a href="bio.html">Biografi</a> </li>
       </ul>
     </div>

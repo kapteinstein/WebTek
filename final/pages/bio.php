@@ -15,7 +15,7 @@
       <ul>
         <li> <a href="bok.html">Bok</a> </li>
         <li> <a href="kontakt.html">Kontakt</a> </li>
-        <li> <a href="bio.html"><span class="active">Biografi</span></a> </li>
+        <li> <a href="bio.html"><span>Biografi</span></a> </li>
       </ul>
     </div>
     <div class="col-3">
