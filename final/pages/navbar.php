@@ -1,5 +1,6 @@
 <?php 
 echo '
+  <nav class="row">
     <div class="menu">
       <div class="submenu">
         <a href="cinematics.php">Cinematics</a>
@@ -24,5 +25,6 @@ echo '
         <a href="kings.php">Kings</a>
       </div>
     </div>
-    <hr />';
+    <hr />
+  </nav>';
 ?>
