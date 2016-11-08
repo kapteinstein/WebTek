@@ -25,9 +25,9 @@
   color: black;
   /* font-weight: bold; */
 }
+.menu a:active { color: red; }
 
 .active {
-  color: black;
   /* font-weight: bold; */
 }
 
