@@ -2,8 +2,8 @@
 echo '
     <div class="menu">
       <div class="submenu">
-        <a href="cinematics.html">Cinematics</a>
-        <a href="triptyk.html">Triptyk</a>
+        <a href="cinematics.php">Cinematics</a>
+        <a href="triptyk.php">Triptyk</a>
         <a href="flukt.html">Flukt</a>
         <a href="glod.html">Glød</a>
       </div>
