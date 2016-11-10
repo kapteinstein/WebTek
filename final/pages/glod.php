@@ -3,7 +3,7 @@
 
 <head>
   <?php include "slideshowHeader.php";?>
-  <title>Gloed</title>
+  <title>Glød</title>
 </head>
 
 <body>

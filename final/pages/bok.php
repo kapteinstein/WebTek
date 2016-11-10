@@ -3,7 +3,7 @@
 
 <head>
   <?php include "header.php";?>
-  <title>Kontakt</title>
+  <title>Bok</title>
 </head>
 
 <body>
