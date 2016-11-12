@@ -1,9 +1,9 @@
-//
-// FILE NAME: final/js/formvalidator.js
-// WRITTEN BY: Sondre Stai
-// WHEN: October 2016
-// PURPOSE: Validate the contact form
-//
+/*
+FILE NAME: final/js/formvalidator.js
+WRITTEN BY: Sondre Stai
+WHEN: October 2016
+PURPOSE: Validate the contact form
+*/
 
 function validateForm() {
   var x = document.forms["contact"]["name"].value;

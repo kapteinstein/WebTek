@@ -1,3 +1,10 @@
+/*
+FILE NAME: final/css/navbar.css
+WRITTEN BY: Torjus Sandviken
+WHEN: October 2016
+PURPOSE: Styling for the navigation bar.
+*/
+
 /*Navigation menu*/
 
 .menu {
@@ -8,8 +15,7 @@
   text-align: center;
 }
 
-
-/*Anchors/hyperlinks*/
+/*Anchors (hyperlinks)*/
 
 .menu a {
   padding: 8px;
@@ -65,17 +71,16 @@
   visibility: hidden;
 }
 
-
-/* en slags fallback på mobil */
+/* Viser et alternativ til drop-down meny (fallback på mobil, der hover fungerer dårlig) */
 
 .dropdown-menu-items a:hover {
   background-color: #2d5052;
   color: #e8e4e4;
 }
 
-
 /*Media queries*/
 
+/*Reduser padding og skriftstørrelse på små skjermer*/
 @media screen and (max-width: 800px) {
   .menu {
     font-size: 0.8em;
@@ -85,6 +90,7 @@
   }
 }
 
+/*Reduser skriftstørrelse og padding og vis menylinkene over to linjer for enda mindre skjermer*/
 @media screen and (max-width: 600px) {
   .menu {
     font-size: 0.8em;

@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: final/pages/bok.php
+WRITTEN BY: Jakob Nordnes, Sondre Stai
+WHEN: October 2016
+PURPOSE: Show the book project page
+-->
+
 <html>
 
 <head>

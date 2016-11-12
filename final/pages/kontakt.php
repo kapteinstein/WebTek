@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: final/pages/kontakt.php
+WRITTEN BY: Sondre Stai, Jakob Nordnes
+WHEN: October 2016
+PURPOSE: Show the contact form
+-->
+
 <html>
 
 <head>

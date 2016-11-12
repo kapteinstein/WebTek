@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: final/pages/bio.php
+WRITTEN BY: Jakob Nordnes, Sondre Stai
+WHEN: October 2016
+PURPOSE: Show the biography page
+-->
+
 <html>
 
 <head>

@@ -1,6 +1,14 @@
 // This is the main script.
 
-// Actions on loading of window
+/*
+FILE NAME: final/js/main.js
+WRITTEN BY: Erik Liodden, Torjus Sandviken
+WHEN: October 2016
+PURPOSE: Perform common tasks, such as page fade-in 
+animation and highlighting of active navigation menu item.
+*/
+
+// Actions performed on loading of window
 window.onload = function() {
   fadeAtLoad();
   addNavigatonStyling();

@@ -1,3 +1,10 @@
+<!--
+FILE NAME: final/pages/navbar.php
+WRITTEN BY: Erik Liodden, Torjus Sandviken
+WHEN: October 2016
+PURPOSE: php script for reusing navigation bar in all pages.
+-->
+
 <?php
 echo '
   <nav class="row" id="navbar">

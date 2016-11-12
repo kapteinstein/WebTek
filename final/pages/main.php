@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: final/pages/main.php
+WRITTEN BY: Erik Liodden, Sondre Stai, Jakob Nordnes
+WHEN: October 2016
+PURPOSE: Show the main page, with artist statement
+-->
+
 <html lang="en-US">
 
 <head>

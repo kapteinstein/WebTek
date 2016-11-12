@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: final/pages/kings.php
+WRITTEN BY: Sondre Stai, Jakob Nordnes
+WHEN: October 2016
+PURPOSE: Show the Kings video gallery
+-->
+
 <html>
 
 <head>

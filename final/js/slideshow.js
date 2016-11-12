@@ -1,3 +1,10 @@
+/*
+FILE NAME: final/js/slideshow.js
+WRITTEN BY: Torjus Sandviken, Ingrid Ege Tørres
+WHEN: October 2016
+PURPOSE: Show, hide and navigate between slide show images.
+*/
+
 // Slide show, based on the following tutorials:
 // http://www.w3schools.com/howto/howto_js_slideshow.asp
 // http://www.w3schools.com/howto/howto_css_modal_images.asp

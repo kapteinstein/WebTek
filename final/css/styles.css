@@ -1,3 +1,10 @@
+/*
+FILE NAME: final/css/styles.css
+WRITTEN BY: Sondre Stai, Ingrid Ege Tørres, Jakob Nordnes, Erik Liodden, Torjus Sandviken
+WHEN: October 2016
+PURPOSE: Styling for the web page.
+*/
+
 @font-face {
   font-family: "robotoLocal";
   src: url(../font/Roboto-Light.woff);
@@ -11,7 +18,6 @@ body {
   font-family: "robotoLocal";
   background-color: #e8e4e4;
   color: #2d5052;
-  /* min-width: 860px; */
 }
 
 /* code idea taken from w3c schools
@@ -32,7 +38,6 @@ body {
 [class*="col-"] {
     float: left;
     padding: 15px;
-    /* border: 1px solid red; */
 }
 
 .row::after {

@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: final/pages/icarus.php
+WRITTEN BY: Ingrid Ege Tørres, Torjus Sandviken, Erik Liodden
+WHEN: October 2016
+PURPOSE: Show the Icarus gallery images
+-->
+
 <html>
 
 <head>
@@ -13,7 +21,7 @@
   <!-- Slide show -->
   <div id="modalBox">
     <div id="slideShowContainer">
-      <img id="slideImage" data-imageid="1" />
+      <img id="slideImage" data-imageid="1" alt="slideshow image" src="../img/Icarus/Icarus.jpg" />
       <a id="prevBtn" class="prev">&#10094;</a>
       <a id="nextBtn" class="next">&#10095;</a>
     </div>
