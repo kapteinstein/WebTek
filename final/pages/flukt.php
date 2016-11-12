@@ -2,48 +2,17 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
-  <script src="../js/main.js" async></script>
-  <meta name=keywords content="fotografi, kunst, kunstfoto" />
+  <?php include "slideshowHeader.php";?>
   <title>Flukt</title>
 </head>
 
-<body onload="fadeAtLoad();">
+<body>
   <!-- The navigation menu -->
-  <nav class="row">
-    <div class="menu">
-      <div class="submenu">
-        <a href="cinematics.html">Cinematics</a>
-        <a href="triptyk.html">Triptyk</a>
-        <a href="flukt.html"><span class="active">Flukt</span></a>
-        <a href="glod.html">Glød</a>
-      </div>
-      <div class="dropdown">
-        <a href="main.html"><span id="author">Daniel Bolstad</span></a>
-        <div class="dropdown-menu">
-          <div class="dropdown-menu-items">
-            <a href="bok.html">Bok</a>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="bio.html">Biografi</a>
-          </div>
-        </div>
-      </div>
-      <div class="submenu">
-        <a href="pandora.html">Pandora</a>
-        <a href="icarus.html">Icarus</a>
-        <a href="matthew.html">Matthew</a>
-        <a href="kings.html">Kings</a>
-      </div>
-    </div>
-    <hr />
-  </nav>
+  <?php include "navbar.php";?>
 
   <!-- Slide show -->
   <div id="modalBox">
-    <div class="slideShowContainer">
+    <div id="slideShowContainer">
       <img id="slideImage" data-imageid="1" />
       <a id="prevBtn" class="prev">&#10094;</a>
       <a id="nextBtn" class="next">&#10095;</a>
@@ -67,8 +36,6 @@
     </div>
     <div class="col-1"></div>
   </div>
-  <!-- avslutter row -->
-  <script src="../js/fade.js"></script>
 </body>
 
 </html>
