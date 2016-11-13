@@ -48,6 +48,16 @@ body {
 }
 /* end of code from w3c */
 
+hr {
+  border: 0px;
+  height: 1px;
+  background: #888;
+}
+
+nav hr {
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 .sidebilde { width: 100%; }
 #mainContainer { opacity: 0; transition: 1s; }
 
