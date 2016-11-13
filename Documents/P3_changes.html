@@ -7,7 +7,7 @@ WHEN: November 2016
 PURPOSE: P3, Changes from P2
 -->
 
-<html>
+<html lang="nb">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,115 +29,108 @@ PURPOSE: P3, Changes from P2
       <main>
         <div>
           <header>
-          <h2> <a href= "http://folk.ntnu.no/eriklio/final/"> Link to final website</a> </h2>
-        </header>
-        </div>
-
-        <div>
-
-
-        </div>
-
-        <div>
-          <header>
-            <h2>Endringer fra P2</h2>
+            <h2> <a href= "http://folk.ntnu.no/eriklio/final/"> Link to final website</a> </h2>
           </header>
-
-
-
         </div>
 
-
         <div>
-          <header>
-            <h2> Changes </h2>
-            <p>
-              Hensikten vår med nettsiden var å "Lage en nettside der klienten blir fremmet som kunstner
-              gjennom sine bilder. Nettsiden skal rette seg mot andre kunstnere av alle aldre.
-              Nettsiden skal også legge til rette for salg av bok om mulig." (Hentet fra P2 Design).
-              Vi planla tidlig at nettsiden skulle være veldig "clean", og at hovedformålet med siden
-              skulle være å ha bildegallerier med forskjellige bildeserier. Dette var som sagt formålet
-              med siden, og vi gikk aldri vekk fra dette. Navigasjonsstrukturen ble laget som planlagt,
-              og vi føler også at planen ble fulgt veldig greit, men det er en del ting som ble lagt merke
-              til og vi endret senere.
-            </p>
-          </header>
-
-          <div>
-            <header>
-              <h2> Endringene vi gjorde </h2>
-              <p>
-                <b>Generelle endringer:</b> Vi bestemte oss tidlig for å endre fargen på fonten fra mørkerød
-                (#973d3d) til en blåfarge (#2d5052). Dette var delvis etter oppfordring fra klienten, som
-                ikke likte rødfargen. Vi endret også font fra de planlagte Trajan Pro og Kozuka Gothic pro
-                til robotoLocal. Dette var fordi vi syntes dette passet bedre. Vi bestemte oss for å bruke
-                såkalt "Grid-view" på sidene. Dette går ut på å dele opp siden i grids, for å gjennomgående
-                like størrelse på ting, og det ser veldig ryddig ut når siden deles opp slik. Ideen ble hentet
-                fra <a href ="http://www.w3schools.com/css/css_rwd_grid.asp">W3Schools</a> , og implementeringen kan sees i styles.css.
-              </p>
-              <p>
-                Nedtrekksmenyen ble løst med css istedetfor JavaScript, men
-                  merking av den aktuelle siden (sort skrift i navbaren) ble
-                  løst med Javascript. Dette måtte vi gjøre som følge av hvordan
-                  navigasjonsbaren ble kodet.
-              </p>
-              <p>Koden under <code>&lt;head&gt;</code> og <code>&lt;nav&gt;</code>
-              taggene ble gjenbrukt på flere av sidene. For å minke gjenbruk av kode
-              lagde vi en header.php fil og en navbar.php fil med den nødvendige
-              koden. Vi brukte så <code>&lt;?php include 'header.php'?&gt;</code>
-              og <code>&lt;?php include 'navbar.php'?&gt;</code> for å importere
-              koden til html-en. For sytlingen hadde vi tre separate .css filer som
-              vi importerte til de ulike sidene. </p>
-              <p>
-                <b>Endringer på index.html:</b> Videoen spilt av fra starten ble veldig rotete, og siden ble
-                uoversiktlig. Vi endret starttidspunkt i videoen til en roligere seksjon av den for å løse det
-                problemet.
-              </p>
-              <p>
-                <b>Endringer på main.html</b> Bortsett fra de generelle endringene ble de gjort lite endringer
-                på main.html. Artist statement ble tilsendt og implementert, og vi beholdt bildet vi hadde planlagt
-                å bruke.
-              </p>
-              <p>
-                <b>Endringer på bio.html:</b> Vi brukte et portrettbilde av klienten på denne siden, og fikk tilsendt
-                bioen av klienten. Størrelsen på bildet ble endret fra 300px*500px til en størrelse som passet bedre
-                til bioens lengde, som vi ikke visste hvor lang skulle være da vi leverte P2.
-              </p>
-              <p>
-                <b>Endringer på bok.html:</b> Klienten ville ha muligheten til å informere om en
-                kommende bok, men hadde ingen informasjon om denne ennå. Vi valgte
-                derfor å fokusere mer på de andre sidene istedetfor.
-              </p>
-              <p>
-                <b>Endringer på kontakt.html:</b> Kontaktsiden inneholder kun et kontaktskjema som sender mail
-                  til klienten (per idag går mailen til en av gruppemedlemmene,
-                  Sondre). "Direkte" kontaktinformasjon som epost-adresse og
-                  telefonnummer til klienten vises ikke på siden.
-              </p>
-              <p>
-                <b>Endringer på bildeseriene:</b> Designet på bildeseriene er slik vi forklarte at det skulle være
-                i P2. Hvordan bildene ligger på siden avhenger av størrelsen på bildene, det for å få det til å se
-                ryddig og fint ut. Bildevisningen ble som planlagt.
-              </p>
-            </header>
-          </div>
           <header>
             <h2>Hvordan kravene ble oppnådd</h2>
-            <p>
-              De fire JavaScript-funksjonene vi hadde sett for oss at vi skulle ha i P2 ble implementert. De var:
-              <li>"Fade-in"-Animasjon ved åpning av bildeserie, som ble laget og implementert av Torjus.</li>
-              <li>Verifiseringen av kontaktform ble laget og implementert av Sondre.</li>
-              <li>Nedtrekksmenyen ble laget og implementert av Erik og Torjus.</li>
-              <li>Slideshow for bildevisning ble laget av Ingrid og Torjus.</li>
-            </p>
           </header>
 
         </div>
-          <h2>Modularitet</h2>
+
+        <div>
+          <header>
+            <h2>Endringer</h2>
+          </header>
+
+          <p> Hensikten vår med nettsiden var å "Lage en nettside der klienten
+          blir fremmet som kunstner gjennom sine bilder. Nettsiden skal rette
+          seg mot andre kunstnere av alle aldre. Nettsiden skal også legge til
+          rette for salg av bok om mulig." (Hentet fra P2 Design). Vi planla
+          tidlig at nettsiden skulle være veldig "clean", og at hovedformålet
+          med siden skulle være å ha bildegallerier med forskjellige
+          bildeserier. Dette var som sagt formålet med siden, og vi gikk aldri
+          vekk fra dette. Navigasjonsstrukturen ble laget som planlagt, og vi
+          føler også at planen ble fulgt greit, men med et par mindre
+          endringer. </p>
+
+          <p> <b>Generelle endringer:</b> Vi bestemte oss for å endre fargen
+          på fonten fra mørkerød (#973d3d) til en blåfarge (#2d5052). Dette
+          var delvis etter oppfordring fra klienten, som ikke likte rødfargen.
+          Vi endret også font fra de planlagte Trajan Pro og Kozuka Gothic pro
+          til Roboto. Dette var fordi vi syntes dette passet bedre. Vi
+          bestemte oss for å bruke såkalt "Grid-view" på sidene. Dette går ut
+          på å dele opp siden i grids, for å gjennomgående like størrelse på
+          ting, og det ser veldig ryddig ut når siden deles opp slik. Ideen
+          ble hentet fra <a href
+          ="http://www.w3schools.com/css/css_rwd_grid.asp">W3Schools</a> , og
+          implementeringen kan sees i styles.css. </p>
+
+          <p> Nedtrekksmenyen ble løst med css istedetfor JavaScript, men
+          merking av den aktuelle siden (sort skrift i navbaren) ble løst med
+          Javascript. Dette måtte vi gjøre som følge av hvordan
+          navigasjonsbaren ble kodet. </p>
+
+          <p> <b>Endringer på index.html:</b> Videoen spilt av fra starten ble
+          veldig rotete, og siden ble uoversiktlig. Vi endret starttidspunkt i
+          videoen til en roligere seksjon av den for å løse det problemet.</p>
+
+          <p> <b>Endringer på main.html</b> Bortsett fra de generelle
+          endringene ble de gjort lite endringer på main.html. Artist
+          statement ble tilsendt og implementert, og vi beholdt bildet vi
+          hadde planlagt å bruke. </p>
+
+          <p> <b>Endringer på bio.html:</b> Vi brukte et portrettbilde av
+          klienten på denne siden, og fikk tilsendt bioen av klienten.
+          Størrelsen på bildet ble endret fra 300px*500px til en størrelse som
+          passet bedre til bioens lengde, som vi ikke visste hvor lang skulle
+          være da vi leverte P2. </p>
+
+          <p> <b>Endringer på bok.html:</b> Klienten ville ha muligheten til å
+          informere om en kommende bok, men hadde ingen informasjon om denne
+          ennå. Vi valgte derfor å fokusere mer på de andre sidene istedetfor.
+          </p>
+
+          <p> <b>Endringer på kontakt.html</b> Kontaktsiden inneholder kun et
+          kontaktskjema som sender mail til klienten (per idag går mailen til
+          en av gruppemedlemmene, Sondre). "Direkte" kontaktinformasjon som
+          epost-adresse og telefonnummer til klienten vises ikke på siden.
+          </p>
+        </div>
+
+        <div>
+          <header>
+            <h2>Modularitet</h2>
+          </header>
+
+          <p>Koden under <code>&lt;head&gt;</code> og <code>&lt;nav&gt;</code>
+          taggene ble gjenbrukt på flere av sidene. For å minke gjenbruk av kode
+          lagde vi en header.php fil og en navbar.php fil med den nødvendige
+          koden. Vi brukte så <code>&lt;?php include 'header.php'?&gt;</code>
+          og <code>&lt;?php include 'navbar.php'?&gt;</code> for å importere
+          koden til html-en. For sytlingen hadde vi tre separate .css filer som
+          vi importerte til de ulike sidene. </p>
+        </div>
+
+        <div>
+        <header>
+          <h2>Hvordan kravene ble oppnådd</h2>
+          <p>
+            De fire JavaScript-funksjonene vi hadde sett for oss at vi skulle ha i P2 ble implementert. De var:
+            <li>"Fade-in"-Animasjon ved åpning av bildeserie, som ble laget og implementert av Torjus.</li>
+            <li>Verifiseringen av kontaktform ble laget og implementert av Sondre.</li>
+            <li>Nedtrekksmenyen ble laget og implementert av Erik og Torjus.</li>
+            <li>Slideshow for bildevisning ble laget av Ingrid og Torjus.</li>
+          </p>
+        </header>
+      </div>
         <div>
           <header>
             <h2>Oppdatert sidestruktur</h2>
           </header>
+
           <p>Alle filene tilhørende den endelige nettsiden ligger under mappen
           <code>final/</code>. </p>
           <h3>Mappestruktur:</h3>
@@ -201,14 +194,6 @@ PURPOSE: P3, Changes from P2
         </div>
 
       </main>
-
-
-
-
-
-
-    </main>
-    </div>
     </div>
   </body>
 </html>
