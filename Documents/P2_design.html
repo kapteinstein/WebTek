@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+FILE NAME: Documents/P2_design.html
+WRITTEN BY: Sondre Stai, Ingrid Ege Tørres, Jakob Nordnes, Erik Liodden, Torjus Sandviken
+WHEN: September 2016
+PURPOSE: P2, Design.
+-->
+
 <html lang="nb">
 <head>
     <meta charset="utf-8" />
@@ -14,7 +22,7 @@
       <h1>P2 Prosjekt - Design</h1>
       <h2 class="medium">
           Erik Liodden, Jakob Nordnes Helgøy, Torjus Sandviken, Sondre Stai, Ingrid Ege
-          Tørres <br /> <span class="small">9. oktober 2016</span>
+          Tørres <br /> <span class="small"> 9. oktober 2016</span>
       </h2>
       <hr />
     </header>
@@ -52,7 +60,7 @@
         egen side med informasjon om boka klienten skal lage. Det vil være mulig
         å navigere fritt mellom disse via en horisontal meny på toppen av siden.
         </p>
-        
+
         <h4>Sitemap:</h4>
         <img src="../img/sitemap.svg" alt="sitemap" class="center" />
       </div>
@@ -69,19 +77,19 @@
         det være en lysegrå bakgrunn <b>(#e8e4e4)</b>. Dette gjør vi for å ha en mest
         mulig nøytral bakgrunn med hensyn til innholdet; f. eks. ville ikke en
         hvit bakgrunn fungert da enkelte av bildene har hvit ramme.</p>
-        
+
         <h4>Navigasjonsmeny</h4>
         <p>For å gi mer fleksibilitet til galleri-innholdets bredde, legger vi
-        navigasjonsmenyen horisontalt på toppen av siden. Lenkene, tittelen og den 
-        horistonale linja vil få en rolig, mørkerød farge (<b style="color:#973d3d">#973d3d</b>) 
-        som går godt sammen med den grå bakgrunnsfargen. Til tross for ønsket om simplisitet 
+        navigasjonsmenyen horisontalt på toppen av siden. Lenkene, tittelen og den
+        horistonale linja vil få en rolig, mørkerød farge (<b style="color:#973d3d">#973d3d</b>)
+        som går godt sammen med den grå bakgrunnsfargen. Til tross for ønsket om simplisitet
         vil vi bruke en antikva font på lenker og tittel for å lage litt konstraster; Trajan
         Pro. På brødtekst har vi derimot valgt en grotesk font ved navn Kozuka
         Gothic Pro. Ved å velge en font uten seriffer på brødtekst sikrer vi
         lesbarhet på skjermer med lav oppløsning.<p>
         <p>
         For å gjøre brukeropplevelsen mer interaktiv og intuitiv, skal vi ha en
-        hover-effekt på menylinkene med et fargeskifte til en mørkere nyanse 
+        hover-effekt på menylinkene med et fargeskifte til en mørkere nyanse
         (<b style="color:#371111">#371111</b>).</p>
 
         <h4>Rød tråd</h4>
@@ -108,7 +116,7 @@
             <li>Elementene i navigasjonsmenyen vil listes vertikalt i stedet for horisontalt.</li>
             <li>Dersom det er nødvendig vil fontstørrelsen minkes, med forbehold om
             at teksten fortsatt blir lesbar.</li>
-            <li>Størrelsen på bilder justeres ned, med forbehold om at bildene krever en hvis 
+            <li>Størrelsen på bilder justeres ned, med forbehold om at bildene krever en hvis
             oppløsning for at man skal se detaljene i bildene.</li>
             <li>Bildene i bildeseriene vises i én kolonne.</li>
           </ul>
@@ -135,7 +143,7 @@
         </header>
         <img class="design-img" src="../img/bio.jpg" alt="bio" />
         <p>Denne siden vil fungere som en hovedside. Her kan man gå videre til
-        de ulike bildeseriene ved å trykke på navnet til serien i den fikserte 
+        de ulike bildeseriene ved å trykke på navnet til serien i den fikserte
         navigasjonsmenyen på toppen. Menyen vil være lik på alle sidene, men navnet
         på den aktuelle serien vil være markert ved at menyelementet får en
         mørkere farge. På hovedsiden vil det være mulig å gå videre til
@@ -168,8 +176,8 @@
         </header>
         <p>Denne siden vil ha kontaktinformasjon til klienten med kontaktskjema.
         Det vil stå email og telefonnummer til klienten. Kontaktskjemaet vil bestå
-        av et tekstfelt for navn, et felt for epostadresse og en tekstboks der 
-        besøkere kan skrive meldinger som blir sendt til eposten til klienten. 
+        av et tekstfelt for navn, et felt for epostadresse og en tekstboks der
+        besøkere kan skrive meldinger som blir sendt til eposten til klienten.
         Skjemaet vil plasseres midt på siden, godt synlig. Formålet med
         kontaktskjemaet er at besøkende vil ha en veldig enkel måte å kontakte
         klienten vår på, uten å måtte gå inn på mail eller sende SMS osv.
@@ -184,7 +192,7 @@
         to bilder i bredden. Dette vil vi vurdere når vi setter inn bildene i hver
         serie. Et eksempel på serien "triptyk.html" er vist i bildet under. </p>
         <img class="design-img" src="../img/triptyk.jpg" alt="triptyk" />
-        
+
         <p>For å få følelsen av å gå inn i et galleri når man åpner en bildeserie
         vil det muligens benyttes en visuell effekt, eksempelvis "fade in". Ved å
         klikke på et av bildene i en serie skal det komme opp en stor versjon av
@@ -213,7 +221,7 @@
         på sidene navigerer til forrige og neste bilde i serien.
         </p>
         <img class="design-img" src="../img/large.jpg" alt="triptyk large" />
-        
+
       </div>
 
       <div>
@@ -235,7 +243,7 @@
           <li>Nedtrekksmeny for kontakt.html, bio.html og bok.html</li>
           <li>Forstørre/forminske et bilde i serievisningen når man trykker på det.
             <ul>
-              <li>Dette kan f.eks. gjøres ved å lage et element som default er skjult <em>("display: none")</em> 
+              <li>Dette kan f.eks. gjøres ved å lage et element som default er skjult <em>("display: none")</em>
               i html-en, men som blir vist når man trykker på det tilsvarende bildet i bildeserien <em>("display:block")</em>.</li>
               <li>Når brukeren er inne i den forstørrede visningen skal piler vises på sidene av bildet som
               kan brukes til å bla til forrige og neste bilde i serien.</li>
@@ -333,8 +341,8 @@
           <p>
           Vi har allerede motatt videoen og alle bildeseriene fra klienten og
           fått beskjed om hvordan han ønsker de komprimert på hjemmesiden.
-          Det eneste vi mangler er et bilde og teksten som skal inn i biografien, 
-          teksten til "artist statement" og eventuelt et bilde som skal representere 
+          Det eneste vi mangler er et bilde og teksten som skal inn i biografien,
+          teksten til "artist statement" og eventuelt et bilde som skal representere
           boken som skal selges.
           </p>
 
