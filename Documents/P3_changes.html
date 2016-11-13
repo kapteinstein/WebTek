@@ -34,10 +34,7 @@ PURPOSE: P3, Changes from P2
         </div>
 
         <div>
-          <header>
 
-            <h2>Hvordan kravene ble oppnådd</h2>
-          </header>
 
         </div>
 
@@ -46,23 +43,13 @@ PURPOSE: P3, Changes from P2
             <h2>Endringer fra P2</h2>
           </header>
 
-          <p>Siden følger samme design som vi spesifiserte i P2, men med et
-          par mindre endringer.</p>
-          <ul>
-            <li> Vi valgte en annen font og farge (Roboto istedetfor Trojan,
-              og mørk blå istedetfor rød) på forespørsel av klienten. </li>
-            <li>Kontaktsiden inneholder kun et kontaktskjema som sender mail
-              til klienten (per idag går mailen til en av gruppemedlemmene,
-              Sondre). "Direkte" kontaktinformasjon som epost-adresse og
-              telefonnummer til klienten vises ikke på siden. </li>
-          </ul>
+
+
         </div>
 
 
         <div>
           <header>
-            <h2>Modularitet</h2>
-=======
             <h2> Changes </h2>
             <p>
               Hensikten vår med nettsiden var å "Lage en nettside der klienten blir fremmet som kunstner
@@ -74,7 +61,6 @@ PURPOSE: P3, Changes from P2
               og vi føler også at planen ble fulgt veldig greit, men det er en del ting som ble lagt merke
               til og vi endret senere.
             </p>
->>>>>>> Stashed changes
           </header>
 
           <div>
@@ -95,6 +81,13 @@ PURPOSE: P3, Changes from P2
                   løst med Javascript. Dette måtte vi gjøre som følge av hvordan
                   navigasjonsbaren ble kodet.
               </p>
+              <p>Koden under <code>&lt;head&gt;</code> og <code>&lt;nav&gt;</code>
+              taggene ble gjenbrukt på flere av sidene. For å minke gjenbruk av kode
+              lagde vi en header.php fil og en navbar.php fil med den nødvendige
+              koden. Vi brukte så <code>&lt;?php include 'header.php'?&gt;</code>
+              og <code>&lt;?php include 'navbar.php'?&gt;</code> for å importere
+              koden til html-en. For sytlingen hadde vi tre separate .css filer som
+              vi importerte til de ulike sidene. </p>
               <p>
                 <b>Endringer på index.html:</b> Videoen spilt av fra starten ble veldig rotete, og siden ble
                 uoversiktlig. Vi endret starttidspunkt i videoen til en roligere seksjon av den for å løse det
@@ -115,18 +108,28 @@ PURPOSE: P3, Changes from P2
                 kommende bok, men hadde ingen informasjon om denne ennå. Vi valgte
                 derfor å fokusere mer på de andre sidene istedetfor.
               </p>
+              <p>
+                <b>Endringer på kontakt.html:</b> Kontaktsiden inneholder kun et kontaktskjema som sender mail
+                  til klienten (per idag går mailen til en av gruppemedlemmene,
+                  Sondre). "Direkte" kontaktinformasjon som epost-adresse og
+                  telefonnummer til klienten vises ikke på siden.
+              </p>
+              <p>
+                <b>Endringer på bildeseriene:</b> Designet på bildeseriene er slik vi forklarte at det skulle være
+                i P2. Hvordan bildene ligger på siden avhenger av størrelsen på bildene, det for å få det til å se
+                ryddig og fint ut. Bildevisningen ble som planlagt.
+              </p>
             </header>
           </div>
+          <header>
+            <h2>Hvordan kravene ble oppnådd</h2>
+            <p>
+              
+            </p>
+          </header>
 
-          <p>Koden under <code>&lt;head&gt;</code> og <code>&lt;nav&gt;</code>
-          taggene ble gjenbrukt på flere av sidene. For å minke gjenbruk av kode
-          lagde vi en header.php fil og en navbar.php fil med den nødvendige
-          koden. Vi brukte så <code>&lt;?php include 'header.php'?&gt;</code>
-          og <code>&lt;?php include 'navbar.php'?&gt;</code> for å importere
-          koden til html-en. For sytlingen hadde vi tre separate .css filer som
-          vi importerte til de ulike sidene. </p>
         </div>
-
+          <h2>Modularitet</h2>
         <div>
           <header>
             <h2>Oppdatert sidestruktur</h2>
@@ -192,12 +195,9 @@ PURPOSE: P3, Changes from P2
             </li>
           </ul>
         </div>
-<<<<<<< Updated upstream
 
       </main>
 
-=======
->>>>>>> Stashed changes
 
 
 
