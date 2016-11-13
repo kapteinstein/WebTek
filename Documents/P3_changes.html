@@ -27,9 +27,46 @@
 
         <div>
           <header>
-            <h2> Changes </h2>
+            <h2>Hvordan kravene ble oppnådd</h2>
           </header>
+
         </div>
+
+        <div>
+          <header>
+            <h2>Endringer fra P2</h2>
+          </header>
+
+          <p>Siden følger samme design som vi spesifiserte i P2, men med et
+          par mindre endringer.</p>
+          <ul>
+            <li> Vi valgte en annen font og farge (Roboto istedetfor Trojan,
+              og mørk blå istedetfor rød) på forespørsel av klienten. </li>
+            <li>Kontaktsiden inneholder kun et kontaktskjema som sender mail
+              til klienten (per idag går mailen til en av gruppemedlemmene,
+              Sondre). "Direkte" kontaktinformasjon som epost-adresse og
+              telefonnummer til klienten vises ikke på siden. </li>
+            <li>Nedrekksmenyen ble løst med css istedetfor JavaScript, men
+              merking av den aktuelle siden (sort skrift i navbaren) ble
+              løst med Javascript. Dette måtte vi gjøre som følge av hvordan
+              navigasjonsbaren ble kodet. </li>
+          </ul>
+        </div>
+
+        <div>
+          <header>
+            <h2>Modularitet</h2>
+          </header>
+
+          <p>Koden under <code>&lt;head&gt;</code> og <code>&lt;nav&gt;</code>
+          taggene ble gjenbrukt på flere av sidene. For å minke gjenbruk av kode
+          lagde vi en header.php fil og en navbar.php fil med den nødvendige
+          koden. Vi brukte så <code>&lt;?php include 'header.php'?&gt;</code>
+          og <code>&lt;?php include 'navbar.php'?&gt;</code> for å importere
+          koden til html-en. For sytlingen hadde vi tre separate .css filer som
+          vi importerte til de ulike sidene. </p>
+        </div>
+
       </main>
     </div>
 
