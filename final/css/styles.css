@@ -16,7 +16,8 @@ PURPOSE: Styling for the web page.
 
 body {
   font-family: "robotoLocal";
-  background-color: #e8e4e4;
+  /* background-color: #e8e4e4; */
+  background-color: rgba(240,240,240,0.5);
   color: #2d5052;
 }
 
